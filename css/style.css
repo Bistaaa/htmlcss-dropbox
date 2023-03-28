@@ -11,15 +11,19 @@ body{
     color: white;
 }
 
+.underline{
+    text-decoration: underline;
+    color: rgba(59,40,239,255);
+}
 
-
-
+.spunta-blu{
+    color: rgba(0,97,255,255);
+}
 
 
 
 /* HEADER */
 
-/* Regole Generali Header*/
 header{
     position: relative;
 }
@@ -60,7 +64,6 @@ header{
 
 
 /* JUMBOTRON */
-
 
 .jumbotron{
     background-color: rgba(180,208,231,255);
@@ -112,7 +115,131 @@ header{
 
 /* BODY */
 
-/* Regole Generali Body*/
+/* Regole Generali */
+
+.container-main{
+    padding: 0 25% 100px;
+    margin-top: 100px;
+}
+
+
+
+
+/* Piani */
+
+.selezione{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.fatturazione-mensile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.fatturazione-annuale{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.cerchio-selezionato{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid rgba(0,97,255,255);
+}
+
+.cerchio-non-selezionato{
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid rgba(216,216,219,255);
+}
+
+
+
+.piani{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.professional{
+    width: 30%;
+    
+}
+
+.advanced{
+    width: 30%;
+}
+
+.enterprise{
+    width: 30%;
+}
+
+.target{
+    border: 2px solid rgba(236,236,237,255);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.descrizione{
+    border-left: 2px solid rgba(236,236,237,255);
+    border-bottom: 2px solid rgba(236,236,237,255);
+    border-right: 2px solid rgba(236,236,237,255);
+    padding: 30px 20px;
+    min-height: 870px;
+}
+
+h5{
+    margin-bottom: 0;
+}
+
+.mese{
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.container-punti-salienti{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#prova-gratis{
+    padding: 10px 0;
+    margin: 50px 0 40px;
+    text-align: center;
+}
+
+hr{
+    width: 20%;
+    margin: 40px 0 50px;
+}
+
+
+
+
 
 
 
