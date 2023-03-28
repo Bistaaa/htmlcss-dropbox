@@ -171,7 +171,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     font-size: 14px;
-    margin-top: 50px;
+    margin: 50px 0 70px;
 }
 
 .professional{
@@ -238,18 +238,45 @@ hr{
 }
 
 
+/* Enterprise Orizzontale */
+
+.enterprise-orizzontale{
+    font-size: 14px;
+}
+
+.target-orizzontale{
+    border: 2px solid rgba(236,236,237,255);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.descrizione-orizzontale{
+    border-left: 2px solid rgba(236,236,237,255);
+    border-bottom: 2px solid rgba(236,236,237,255);
+    border-right: 2px solid rgba(236,236,237,255);
+    padding: 30px 20px;
+}
+
+.enterprise-e-contatta-ufficio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contatta-ufficio{
+    padding: 15px 40px;
+}
+
+#soluzioni-personalizzate{
+    margin: 50px 0 0;
+    width: 65%;
+}
 
 
 
 
-
-
-
-
-
-
-
-
+/* Partner */
 
 
 
