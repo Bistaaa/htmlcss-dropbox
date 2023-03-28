@@ -1,7 +1,15 @@
 
 /* Regole Generali Progetto*/
 
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
 
+.bottone-blu{
+    background-color: rgba(0,97,255,255);
+    color: white;
+}
 
 
 
@@ -12,37 +20,92 @@
 /* HEADER */
 
 /* Regole Generali Header*/
+header{
+    position: relative;
+}
 
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
+.navigator-left{
+    display: flex;
+    flex-direction: row;
+}
 
+.navigator-right{
+    display: flex;
+    flex-direction: row;
+}
 
+.nav-cells{
+    height: calc(100% - 10px);
+    margin: 0 20px;
+}
 
-
-
-
-
-
-
+#inizia{
+    padding: 5px 15px;
+}
 
 
 
 
 /* JUMBOTRON */
 
-/* Regole Generali Jumbotron*/
 
+.jumbotron{
+    background-color: rgba(180,208,231,255);
+    padding: calc(7vh + 80px) 18% 20px;
+}
 
+.jumbotron-container{
+    display: flex;
+    flex-direction: column;
+}
 
+.titolo-jumbotron{
+    font-size: 83px;
+    font-weight: 900;
+    margin: 30px 0;
+}
 
+.descrizione-e-foto-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
 
+.descrizione-jumbotron{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    gap: 50px;
+}
 
+.immagine-jumbotron{
+    width: 65%;
+    background-size: contain;
+}
 
+#prova-gratuita{
+    padding: 10px 15px;
+    min-width: 50px;
+}
 
-
-
-
-
-
+.freccia-jumbotron{
+    font-size: 50px;
+    position: absolute;
+    bottom: 30px;
+}
 
 
 
