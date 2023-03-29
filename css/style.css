@@ -39,6 +39,8 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    box-shadow: 1px 1px 2px grey;
+    z-index: 50;
 }
 
 .navigator-left{
@@ -397,34 +399,42 @@ hr{
 
 #square-1{
     background-color: rgba(162,211,155,255);
+    z-index: 10;
 }
 
 #square-2{
     background-color: rgba(97,8,43,255);
+    z-index: 10;
 }
 
 #square-3{
     background-color: rgba(0,147,206,255);
+    z-index: 10;
 }
 
 #square-4{
     background-color: rgba(255,28,28,255);
+    z-index: 10;
 }
 
 #square-5{
     background-color: rgba(213,0,31,255);
+    z-index: 10;
 }
 
 #square-6{
     background-color: rgba(180,208,231,255);
+    z-index: 10;
 }
 
 #square-7{
     background-color: rgba(13,36,129,255);
+    z-index: 10;
 }
 
 #square-8{
     background-color: rgba(255,216,48,255);
+    z-index: 10;
 }
 
 
@@ -503,30 +513,31 @@ hr{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER */
 
-/* Regole Generali Footer*/
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px 20% 20px;
+}
 
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.mini-container-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+}
 
-
-
+.hr-footer{
+    width: 8%;
+    margin: 80px 0 30px;
+}
 
 
 
