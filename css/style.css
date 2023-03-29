@@ -122,7 +122,10 @@ header{
     margin-top: 100px;
 }
 
-
+.container-bottom-main{
+    padding: 0 25% 100px;
+    margin: 100px 0;
+}
 
 
 /* Piani */
@@ -464,6 +467,45 @@ hr{
     background-color: white;
     padding: 10px 30px;
 }
+
+
+
+
+
+/* Domande frequenti */
+
+
+#titolo-domanda{
+    margin-bottom: 70px;
+}
+
+.hr-100{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.box-domande{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.domanda{
+    width: 80%;
+    font-weight: bold;
+}
+
+.freccia{
+    padding: 20px;
+}
+
+
+
+
+
+
+
 
 
 
