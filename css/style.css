@@ -332,11 +332,106 @@ hr{
     width: 100%;
 }
 
+#h1-dropbox-business{
+    margin-bottom: 50px;
+    width: 60%;
+}
 
 
 
+/* Clienti Dropbox business */
+
+.container-clienti-dropbox-business{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-column{
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+}
+
+.center-column{
+    width: calc(100% / 3);
+    padding: 30px;
+}
+
+.right-column{
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+}
+
+.top-row{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-row{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.square{
+    width: 50%;
+    height: calc(100vw / 6);
+    position: relative;
+}
+
+.clients-images{
+    width: 50%;
+    background-size: contain;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#square-1{
+    background-color: rgba(162,211,155,255);
+}
+
+#square-2{
+    background-color: rgba(97,8,43,255);
+}
+
+#square-3{
+    background-color: rgba(0,147,206,255);
+}
+
+#square-4{
+    background-color: rgba(255,28,28,255);
+}
+
+#square-5{
+    background-color: rgba(213,0,31,255);
+}
+
+#square-6{
+    background-color: rgba(180,208,231,255);
+}
+
+#square-7{
+    background-color: rgba(13,36,129,255);
+}
+
+#square-8{
+    background-color: rgba(255,216,48,255);
+}
 
 
+#logo-designit{
+    width: 40%;
+}
+
+#autore{
+    padding-top: 50px ;
+}
 
 
 
