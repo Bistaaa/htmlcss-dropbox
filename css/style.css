@@ -436,13 +436,34 @@ hr{
 
 
 
+/* Prova gratuita */
 
+.container-prova-gratuita{
+    background-color: rgba(180,208,231,255);
+    padding: 0 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
 
+.container-titolo-prova-gratuita{
+    width: 60%;
+}
 
+#titolo-prova-gratuita{
+    color: rgba(106,24,52,255);
+    padding: 100px;
+}
 
+.container-bottone-prova-gratuita{
+    width: 30%;
+}
 
-
-
+#bottone-prova-gratuita{
+    background-color: white;
+    padding: 10px 30px;
+}
 
 
 
